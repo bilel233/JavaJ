@@ -4,4 +4,9 @@ public class Piano extends Instrument{
 		super(poids,prix);
 	}
 
+	public void jouer(){
+		System.out.println("le piano joue");
+		
+	}
+
 }
