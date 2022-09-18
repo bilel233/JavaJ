@@ -6,4 +6,7 @@ public class Guitare extends Instrument{
 	public String toString(){
 		return super.toString();
 	}
+	public void jouer(){
+		System.out.println("la guitare joue");
+	}
 }
