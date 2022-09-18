@@ -34,4 +34,11 @@ public class TableauInt{
 		}
 		return rang;
 	}
+	public int somme(){
+		int s = 0;
+		for(int i=0;i<tab.length;i++){
+			s+=tab[i];
+		}
+		return s;
+	}
 }
