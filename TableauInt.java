@@ -14,4 +14,15 @@ public class TableauInt{
 			tab[i] = n+i;
 		}
 	}
+	// ajout des methodes
+
+	public String toString(){
+		String s = "";
+		s = s + "["+tab[0];
+		for(int i=1; i< tab.length;i++){
+			s = s + ","+tab[i]+",";
+		}
+		s+="]";
+		return s;
+	}
 }
