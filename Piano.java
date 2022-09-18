@@ -8,5 +8,8 @@ public class Piano extends Instrument{
 		System.out.println("le piano joue");
 		
 	}
+	public String toString(){
+		return super.toString();
+	}
 
 }
