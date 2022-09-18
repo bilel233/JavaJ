@@ -25,4 +25,13 @@ public class TableauInt{
 		s+="]";
 		return s;
 	}
+	public int rangMax(){
+		int rang = 0;
+		for(int i=0;i<tab.length;i++){
+			if (tab[i] > tab[i+1]){
+				rang = i;
+			}
+		}
+		return rang;
+	}
 }
