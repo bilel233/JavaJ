@@ -4,5 +4,6 @@ public class TestTableau{
 		TableauInt U = new TableauInt(20);
 
 		System.out.println(U.toString());
+		System.out.println(T.toString());
 	}
 }
