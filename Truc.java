@@ -16,3 +16,8 @@ public class Truc{
         return num;
     }
 }
+
+
+// cpt est une variable de classe
+
+
