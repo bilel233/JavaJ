@@ -28,8 +28,8 @@ public class TableauInt{
 	public int rangMax(){
 		int rang = 0;
 		for(int i=0;i<tab.length;i++){
-			if (tab[i] > tab[i+1]){
-				rang = i;
+			if (tab[i] > tab[i-1+1]){
+				rang = i+1;
 			}
 		}
 		return rang;
