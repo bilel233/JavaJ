@@ -1,5 +1,5 @@
 public class Personne{
-    protected final String nom;
+    protected final  String nom;
     protected String numTel;
     private int nbEnfants;
 
@@ -19,5 +19,24 @@ public class Personne{
     }
     public void ajouterEnfant(){
         nbEnfants++;
+    }
+
+    public class Etudiant extends Personne{
+        private String cursus;
+
+        public  Etudiant(String n,String t,String c){
+            super(n,t);
+            cursus = c;
+        }
+        public boolean estEnL2(){
+            return cursus.equals("L2");
+        }
+        public void afficherInfo(){
+            System.out.println(nom);
+        }
+        public void modifierInfo(){
+           // nom="toto";
+           numTel="0102030405";
+        }
     }
 }
