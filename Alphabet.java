@@ -15,8 +15,17 @@ public class Alphabet {
             a = (int)c;
             System.out.println(a);
 
+            
+        System.out.println("*=====================================================*");
+    }
+    int A;
+    for(char c ='A';c <= 'Z';c++){
+        System.out.println(c);
+        System.out.println("--------------------------------");
+        A = (int)c;
+        System.out.println(A);
 
-        }
-
+    }
+    System.out.println("*=====================================================*");
     }
 }
