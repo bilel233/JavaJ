@@ -10,5 +10,9 @@ public class Complexe{
     public Complexe(){
       this(Math.random()*(2),Math.random()*2);
     }
+    public boolean estReel(){
+        Complexe c = new Complexe(reelle,imag);
+        return c.reelle==0;
+    }
 
 }
